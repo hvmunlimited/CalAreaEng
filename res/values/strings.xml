@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">CalArea</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Calculate Area</string>
+    <string name="btn1">Area Cicle</string>
+    <string name="cal">Calculate</string>
+    <string name="ans">Answer</string>
+    <string name="back">Black</string>
+    <string name="editTextWidth">ใส่ค่าความกว้าง</string>
+    <string name="editTextHigh">ใส่ค่าความสูง</string>
+    <string name="editTextBase">ใส่ค่าความยาวฐาน</string>
+    <string name="CicleTile">Calculate Area Circle</string>
+    <string name="Cicle_Hits">Radiau</string>
+    <string name="radius">Radius</string>
+    <string name="Volumeofsphere">Volume of sphere</string>
+    <string name="InputRadius">Input Radius</string>
+    <string name="CalculateAreaTriangle">Calculate Area Triangle</string>
+    <string name="InputHigh">High</string>
+    <string name="InputBase">Base</string>
+    <string name="CalculateAreaSquare">Calculate Area Square</string>
+    <string name="CalculateVolumeCylindrical">Calculate Volume Cylindrical</string>
+    <string name="CalculateVolumeCone">Calculate Volume Cone</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="CalculateAreaTrapezoid">Calculate Area Trapezoid</string>
+   
+
+</resources>

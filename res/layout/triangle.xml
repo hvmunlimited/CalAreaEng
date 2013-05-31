@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/CalculateAreaTriangle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/EditTextHigh"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/InputHigh"
+            android:inputType="numberDecimal"
+            android:maxLength="15" />
+
+        <EditText
+            android:id="@+id/EditTextb"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/InputBase"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnCalculateCicle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/cal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/CicletextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ans" />
+
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1518972b7d4345"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR,TEST_DEVICE_ID_GOES_HERE" >
+    </com.google.ads.AdView>
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:contentDescription="@+id/imageView1"
+         android:src="@drawable/triangle" />
+
+</LinearLayout>

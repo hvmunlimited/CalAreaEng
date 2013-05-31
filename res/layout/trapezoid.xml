@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/CalculateAreaTrapezoid"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/EditTextHigh"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:hint="@string/InputHigh"
+            android:inputType="numberDecimal"
+            android:maxLength="15" />
+
+        <EditText
+            android:id="@+id/editTexta"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:hint="@string/a"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditTextb"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:hint="@string/b"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnCalculateCicle1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/cal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/CicletextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ans" />
+
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1518972b7d4345"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR,TEST_DEVICE_ID_GOES_HERE" >
+    </com.google.ads.AdView>
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:contentDescription="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/trapezoid" />
+
+</LinearLayout>

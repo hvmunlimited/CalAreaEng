@@ -1,0 +1,27 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent" >
+
+        <ImageView
+            android:id="@+id/ColImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@+id/ColImage"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/ColPosition"
+            android:paddingLeft="5dp"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+</TableLayout>
